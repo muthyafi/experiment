@@ -3,7 +3,14 @@ import React, { Component } from 'react';
 class About extends Component {
   render() {
     return(
-      <span>About</span>
+      <React.Fragment>
+        <span>About</span>
+        <Link to='/'>
+          <button>
+            Home
+          </button>
+        </Link>
+      </React.Fragment>
     )
   }
 }
