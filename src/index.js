@@ -20,9 +20,3 @@ ReactDOM.render(app, container);
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
-
-// console.log(module.hot);
-// if(module.hot) {
-//   console.log('ehehe')
-//   module.hot.accept('./Application/App', () => ReactDOM.render(require('./Application/App').default))
-// }
